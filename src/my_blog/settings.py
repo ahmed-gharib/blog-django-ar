@@ -120,3 +120,9 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.0/howto/static-files/
 
 STATIC_URL = '/static/'
+
+# if you want to make static folder for all project you can use this code
+STATICFILES_DIRS = [
+	os.path.join(BASE_DIR, "static"),
+	'/root/Desktop/myprojects/2019/Blogger/src/static',
+]
